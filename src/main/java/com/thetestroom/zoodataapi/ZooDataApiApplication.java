@@ -1,13 +1,13 @@
-package com.thetestroom.zooapi;
+package com.thetestroom.zoodataapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZooApiApplication {
+public class ZooDataApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZooApiApplication.class, args);
+		SpringApplication.run(ZooDataApiApplication.class, args);
 	}
 
 }

@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.thetestroom</groupId>
-	<artifactId>zoo-api</artifactId>
+	<artifactId>zoo-data-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>zoo-api</name>
-	<description>Zoo API</description>
+	<name>zoo-data-api</name>
+	<description>Zoo Data API</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -44,7 +44,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.thetestroom.zooapi.ZooApiApplication</mainClass>
+					<mainClass>com.thetestroom.zoodataapi.ZooDataApiApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
